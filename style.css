@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navabr */
+.navbar{
+    background-color:#F5DEB3;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* navabar exit  */
+
+/* main section start  */
+.main{
+    width: 100%;
+    height: 110vh;
+}
+.main h3{
+ font-size: 4.4rem;
+ font-weight: 700; 
+}
+.main h6{
+font-size: 1.1rem;
+text-transform: uppercase;
+line-height: 1;
+border-bottom: 3px solid #F5DEB3;
+width: 44%;
+}
+.main .bt1:hover{
+    background-color: #F5F5DC;
+    transition: 0.5s;
+}
+.main .bt2:hover{
+    background-color: #F5DEB3;
+    transition: 0.5s;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: #F5DEB3;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 1px solid #F5DEB3;
+    border-radius: 5px;
+}
+.image-size{
+    max-width: 150%;
+    height: auto;
+    position: relative;
+    right: -9rem;
+    top: -5rem;
+}
+/* main seection srart exit */
+/* about section  */
+.about{
+    width: 100%;
+    height: 150vh;
+    margin-top: 5rem;
+}
+.about img{
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 4.4rem;
+    font-weight: 900;
+}
+.font{
+    font-weight: bold;
+}
+.progress{
+    background-color: #F5F5DC;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+
+    -webkit-box-shadow: inset 4px 40px 97px -159px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 4px 40px 97px -159px rgba(0,0,0,0.75);
+box-shadow: inset 4px 40px 97px -159px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: #F5DEB3;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: #F5DEB3;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: #F5DEB3;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: #F5DEB3;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: black;
+    padding: 4px;
+}
+.float{
+    float: right;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #F5DEB3;
+    color: black;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #F5DEB3;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid #F5DEB3;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: #F5DEB3;
+    color: black;
+    border: none;
+    transition: 0.5s;
+}
+/* services  */
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:#F5F5DC;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: #F5DEB3;
+    color: black;
+    transition: 0.5s;
+}
+/* porfolio */
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover{
+    -webkit-box-shadow: 21px -20px 120px -46px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px -20px 120px -46px rgba(0,0,0,0.75);
+    box-shadow: 21px -20px 120px -46px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item::before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238,235,230,0.644);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover::before{
+    opacity: 1;
+    transition: 0.3s;
+}
+/* footer css design
+===================================*/
+
+footer{
+    width: 100%;
+    text-align: right;
+    background-color: #F5DEB3;
+    height: 13vh;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.4;
+    margin-top: 3px;
+    letter-spacing: 0.12px;
+}
+
+footer p a{
+    color: black;
+    text-decoration: underline;
+}

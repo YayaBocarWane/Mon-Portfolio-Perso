@@ -1,0 +1,21 @@
+@media( max-width:823px){
+    .image-size{
+        position: relative;
+        left: -2.5rem;
+    }
+    .main{
+        width: 100%;
+        height: 180vh;
+    }
+    .about img{
+        display: none;
+    }
+    .about{
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+        height: 110vh;
+        margin-top: 5rem;
+    }
+}
